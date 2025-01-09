@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Veloblock - Facilitator &amp; Fiat Redemption</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container { display: flex; min-height: 100vh; }
+    .sidebar {
+      width: 250px;
+      background-color: #fff;
+      border-right: 1px solid #ccc;
+      padding: 1rem;
+    }
+    .sidebar h2 {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      color: #444;
+    }
+    .nav-section { margin-bottom: 2rem; }
+    .nav-section ul { list-style: none; }
+    .nav-section li a {
+      text-decoration: none;
+      display: block;
+      padding: 0.25rem 0;
+      color: #0066cc;
+    }
+    .nav-section li a:hover { text-decoration: underline; }
+    .main-content { flex: 1; padding: 2rem; }
+    .main-content h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+    .main-content p {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+    .next-link {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #0066cc;
+      color: #fff;
+      padding: 0.6rem 1rem;
+      border-radius: 4px;
+      margin-top: 1rem;
+    }
+    .next-link:hover {
+      background-color: #004d99;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <nav>
+      <div class="nav-section">
+        <h2>Introduction</h2>
+        <ul>
+          <li><a href="index.html">Overview of Veloblock</a></li>
+          <li><a href="motivation-vision.html">Motivation &amp; Vision</a></li>
+        </ul>
+      </div>
+      <div class="nav-section">
+        <h2>Protocol Architecture</h2>
+        <ul>
+          <li><a href="system-components-overview.html">System Components Overview</a></li>
+          <li><a href="workflow.html">Workflow</a></li>
+        </ul>
+      </div>
+      <div class="nav-section">
+        <h2>Core Concepts</h2>
+        <ul>
+          <li><a href="collateralized-loan-position.html">Collateralized Loan Position</a></li>
+          <li><a href="flashloan-mechanism.html">Flashloan Mechanism</a></li>
+          <li><a href="pegged-derivatives-tokens.html">Pegged Derivatives Tokens</a></li>
+          <li><a href="liquidation-mechanism.html">Liquidation Mechanism</a></li>
+          <li><a href="rebalancing-mechanism.html">Rebalancing Mechanism</a></li>
+          <li><a href="facilitator-fiat-redemption.html">Facilitator &amp; Fiat Redemption</a></li>
+        </ul>
+      </div>
+      <div class="nav-section">
+        <h2>Oracles &amp; Price Management</h2>
+        <ul>
+          <li><a href="oracles-overview.html">Oracles Overview</a></li>
+          <li><a href="price-management.html">Price Management</a></li>
+          <li><a href="pricings-cross-pool-loans.html">Pricings For Cross-Pool Loans</a></li>
+        </ul>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <h1>Facilitator &amp; Fiat Redemption</h1>
+    <p>
+      Facilitators play a crucial role by exchanging XLM and USDC for 
+      local currencies. When users need actual fiat for expenses, cross-border payment or payroll, a facilitator 
+      will convert their assets at the rate displayed on the dashboard, finalizing the transaction off-chain.
+    </p>
+    <p>
+      This service expands Veloblock’s utility into real economies, ensuring that businesses 
+      and individuals can move seamlessly between decentralized finance and traditional 
+      bank-based systems.
+    </p>
+
+    <a class="next-link" href="oracles-overview.html">
+      Next &raquo; Oracles Overview
+    </a>
+  </main>
+</div>
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2025 Veloblock. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+</body>
+</html>
